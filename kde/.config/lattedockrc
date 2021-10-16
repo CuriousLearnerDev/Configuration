@@ -1,0 +1,81 @@
+[DownloadDialog Settings]
+Height 1080=674
+Width 1920=700
+Window-Maximized 1080x1920=true
+eDP Height 1080=1013
+eDP Width 1920=1280
+eDP Window-Maximized 1920x1080=true
+eDP-1 Height 1080=1015
+eDP-1 Width 1920=1920
+
+[FileDialogSize]
+Height 1080=990
+VGA-1 eDP-1 Height 900=834
+VGA-1 eDP-1 Width 1440=1440
+Width 1920=1748
+eDP Height 1080=990
+eDP Width 1920=1748
+eDP-1 Height 1080=990
+eDP-1 Width 1920=1748
+
+[KFileDialog Settings]
+Recent Files[$e]=hs_err_pid3930.log,file:$HOME/YingYong/pycharm-community/bin/pycharm.svg,file:$HOME/YingYong/Minecraft/start_hmcl.sh,file:$HOME/YingYong/clash/v2ray/logo.svg
+Recent URLs[$e]=file:$HOME/YingYong/clash/v2ray/,file:$HOME/YingYong/Minecraft/,file:$HOME/,file:$HOME/YingYong/pycharm-community/bin/
+detailViewIconSize=0
+iconViewIconSize=43
+
+[KPropertiesDialog]
+Height 1080=778
+VGA-1 eDP-1 Height 900=655
+VGA-1 eDP-1 Width 1440=504
+Width 1920=804
+eDP Height 1080=645
+eDP Height 1920x1080=545
+eDP Width 1920=486
+eDP Width 1920x1080=480
+eDP-1 Height 1080=725
+eDP-1 VGA-1 Height 1080=776
+eDP-1 VGA-1 Width 1920=750
+eDP-1 Width 1920=641
+
+[LatteSettingsDialog]
+downloadWindowSize=980,600
+windowSize=1100,918
+
+[LatteSettingsDialog][TabLayouts]
+columnWidths=69,508,129,104
+sortColumn=3
+sortOrder=0
+
+[PlasmaRunnerManager]
+LaunchCounts=2 services_applications:org.kde.kdeconnect.sms.desktop,1 services_applications:kali-wpscan.desktop,4 baloosearch,2 services_applications:virtualbox.desktop,1 services_applications:com.qq.weixin.deepin.desktop,3 services_org.kde.kdeconnect.app.desktop,1 services_applications:kcmtrash.desktop,2 services_applications:com.qq.im.deepin.desktop,1 shell_altdns,1 shell_orca,1 services_applications:Qv2ray.desktop,1 baloosearch_/root/下载/无线渗透.pptx,1 services_applications:org.gnome.Calculator.desktop,3 services_applications:vmware-workstation.desktop,2 services_applications:google-chrome.desktop,2 services_virtualbox.desktop,6 services_simplescreenrecorder.desktop,1 services_applications:xsser.desktop,1 services_netease-cloud-music.desktop,1 services_applications:BurpSuite .desktop,1 services_applications:wayland.desktop,2 services_applications:desktoppath.desktop,2 services_applications:install4j_hznb23-BurpSuitePro.desktop,1 baloosearch_/home/zss/YingYong/pycharm-community-2020.3.3/plugins/python-ce/helpers/typeshed/stdlib/2/gettext.pyi,1 services_stacer.desktop,1 services_applications:sublime_text.desktop,1 services_applications:org.qbittorrent.qBittorrent.desktop,1 shell_connect,4 services_wireshark.desktop,2 services_applications:org.kde.kdeconnect.app.desktop,1 services_com.teamviewer.TeamViewer.desktop,1 services_applications:joplin.desktop,1 services_applications:com.taobao.wangwang.deepin.desktop,2 services_gparted.desktop,2 services_applications:todesk.desktop,2 services_applications:org.gnome.Nautilus.desktop,3 services_applications:typora.desktop,1 services_cocomusic.desktop,1 services_bleachbit-root.desktop,6 services_applications:kali-burpsuite.desktop,1 services_applications:org.kde.kcalc.desktop,1 services_applications:org.remmina.Remmina.desktop,4 services_applications:vlc.desktop,1 services_applications:qterminal.desktop,1 services_applications:amule.desktop,1 services_applications:gparted.desktop,2 services_applications:install4j_15ws5kb-BurpSuitePro.desktop,1 services_applications:nvidia-settings.desktop,1 services_applications:spark-store.desktop,3 services_applications:electronic-wechat_electronic-wechat.desktop,1 services_applications:simplescreenrecorder.desktop,1 services_applications:kali-airgeddon.desktop,3 services_org.gnome.DiskUtility.desktop,2 services_applications:com.gexperts.Tilix.desktop,5 services_qq.desktop,7 services_applications:BurpSuite.desktop,16 services_applications:wireshark.desktop,4 services_org.bleachbit.BleachBit.desktop,1 services_kcm_kdeconnect.desktop,1 services_im-config.desktop,1 services_applications:kali-msfconsole.desktop
+pluginWhiteList=services,shell,bookmarks,baloosearch,locations
+
+[PlasmaThemeExtended]
+outlineWidth=1
+
+[ScreenConnectors]
+10=eDP-1
+11=HDMI-1
+12=VGA-1
+13=eDP
+
+[UniversalSettings]
+badges3DStyle=false
+canDisableBorders=false
+contextMenuActionsAlwaysShown=
+currentLayout=WhiteSur
+downloadWindowSize=1920,1020
+inAdvancedModeForEditSettings=true
+isAvailableGeometryBroadcastedToPlasma=true
+lastNonAssignedLayout=WhiteSur
+launchers=
+layoutsColumnWidths=64,650,49,0
+layoutsWindowSize=1280,999
+memoryUsage=0
+metaPressAndHoldEnabled=true
+mouseSensitivity=2
+screenTrackerInterval=2500
+showInfoWindow=true
+singleModeLayoutName=WhiteSur
+version=2
