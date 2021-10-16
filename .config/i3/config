@@ -52,15 +52,20 @@ font pango:Bitstream Vera Sans Mono 11
 
 # xss-lock grabs a logind suspend inhibit lock and will use i3lock to lock the
 # screen before suspend. Use loginctl lock-session to lock your screen.
-exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
+
 # NetworkManager is the most popular way to manage wireless networks on Linux,
 # and nm-applet is a desktop environment-independent system tray GUI for it.
+
+##=======自己配置 自启动=======
+exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lockr --blur 60 # 自带锁屏
+exec --no-startup-id  variety #壁纸
 exec --no-startup-id nm-applet
-exec --no-startup-id  ~/.config/polybar/launch.sh  #polybar
+exec --no-startup-id  ~/.config/polybar/launch.sh  #启动polybar
 exec --no-startup-id compton -b # 透明
 exec --no-startup-id /opt/apps/com.baidu.fcitx-baidupinyin/files/bin/bd-qimpanel.watchdog.sh # 启动百度输入法
 exec --no-startup-id dunst  # dunst系统通知
-exec --no-startup-id  variety #壁纸
+exec --no-startup-id xautolock -time 10 -locker i3lockr --blur 60 # 无操作10分钟自动锁屏
+# ===========================================================================
 
 # Use pactl to adjust volume in PulseAudio.
 set $refresh_i3status killall -SIGUSR1 i3status
@@ -72,13 +77,22 @@ bindsym XF86AudioMicMute exec --no-startup-id pactl set-source-mute @DEFAULT_SOU
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
 
-##=======自己配置=======
+
+
+##=======自己配置 快捷键=======
 bindsym $mod+d exec rofi -theme material -font "hack 20" -show  drun -show-icons #搜索
 bindsym $mod+Shift+Ctrl+a exec --no-startup-id flameshot gui # 截图
 bindsym $mod+n exec  --no-startup-id netease-cloud-music # 网易云音乐
-bindsym $mod+m exec  google-chrome # 谷歌浏览器
+bindsym $mod+c exec  google-chrome # 谷歌浏览器
 bindsym $mod+z exec  nautilus # 文件管理器
-bindsym $mod+Return exec mate-terminal #打开终端
+bindsym $mod+Return exec  konsole #打开终端
+bindsym $mod+p    exec --no-startup-id i3lockr --blur 60 # 手动锁屏
+
+
+# 将工作区移至下一个/上一个工作区并跟随
+bindsym $mod+Ctrl+d   workspace next
+bindsym $mod+Ctrl+s   workspace prev
+
 ##==========================================
 
 
