@@ -1,6 +1,6 @@
  
 ;==========================================================
-;
+
 ;
 ;   ██████╗  ██████╗ ██╗  ██╗   ██╗██████╗  █████╗ ██████╗
 ;   ██╔══██╗██╔═══██╗██║  ╚██╗ ██╔╝██╔══██╗██╔══██╗██╔══██╗
@@ -33,10 +33,12 @@ nord8 = #2bcec2
 notice = #f1fa8c
 
 ;次配置颜色
-success = #50fa7b 
+success = #90EE90
 
 ;主配置颜色
 warning = #ff5555
+
+;#ff5555
 
 background = #cc222222
 foreground = #ffffff
@@ -73,7 +75,7 @@ foreground = ${colors.foreground}
 line-size = 4
 line-color = #f00
 
-border-size = 4 ;顶部的距离
+border-size = 1 ;顶部的距离
 border-color = #00000000
 
 padding-left = 2

@@ -1,0 +1,8 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =6
+let g:netrw_dirhist_6='/home/zss/.cache/konsole'
+let g:netrw_dirhist_5='/home/zss/.vim'
+let g:netrw_dirhist_4='/home/zss/.config/ranger'
+let g:netrw_dirhist_3='/usr/share/doc/screenfetch'
+let g:netrw_dirhist_2='/tmp/runtime-root'
+let g:netrw_dirhist_1='/usr/share/doc/screenfetch'

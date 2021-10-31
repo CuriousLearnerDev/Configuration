@@ -1,0 +1,36 @@
+
+
+" 按s 移动到当前行的末尾 在按s到当前行的前面
+noremap <expr>s col(".")==1?"$":"0"   
+
+
+
+
+syntax on " 代码高亮
+set number  
+set relativenumber " 开启相对行号
+set cursorline " 开启光亮光标行
+set hlsearch " 搜索高亮，用的是/搜索
+set wrap " 代码换行，比如一个代码很长他会往下显示
+set wildmenu	" 命令补全
+set clipboard^=unnamed,unnamedplus " 连接系统复制
+
+
+call plug#begin('~/.vim/plugged')
+Plug 'vim-airline/vim-airline' " 显示框
+Plug 'mhinz/vim-startify' " 最近打开的文件
+Plug 'connorholyday/vim-snazzy' " 主题
+Plug 'itchyny/vim-cursorword'  " 单词增加下划线
+Plug 'preservim/nerdtree'   " 文件管理器
+Plug 'preservim/nerdcommenter' " 代码注释
+" Plug 'isnowfy/python-vim-instant-markdown'  " md实时预览
+Plug 'iamcco/markdown-preview.nvim'
+" Plug 'neoclide/coc.nvim', {'branch': 'release'}
+
+
+call plug#end()
+
+let g:SnazzyTransparent = 1 " 主题透明
+colorscheme snazzy  " 启动主题
+
+

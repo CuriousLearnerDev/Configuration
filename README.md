@@ -1,0 +1,138 @@
+# 说明
+
+叫这个配置文件复制到对应的文件就可以使用了，kde和i3wm按照下面的安装就可以了
+
+kde可能会依赖其他的东西可以直接自行安装
+
+# i3wm的配置
+
+里面的程序会调用的工具
+
+
+
+## 通知守护程序
+
+安装dunst
+
+```sh
+sudo pacman -S dunst
+```
+
+
+
+## 安装polybar
+
+```sh
+git clone https://aur.archlinux.org/polybar.git
+cd polybar
+makepkg -si 
+```
+
+## 屏幕锁
+
+用的是i3lockr
+
+安装
+
+```sh
+wget https://github.com/owenthewizard/i3lockr/releases/download/v1.1.0-docfix/i3lockr
+chmod +x i3lockr
+或者直接放到环境变量里面
+sudo mv i3lockr /usr/local/bin
+```
+
+
+
+## 网络连接
+
+用的nm-applet
+
+安装
+
+```sh
+sudo pacman -S  network-manager-gnome
+```
+
+## 终端安装
+
+我用的是konsole
+
+```sh
+sudo pacman -S  konsole
+```
+
+
+
+## 主题
+
+用的是`lxappearance`
+
+安装
+
+```sh
+sudo pacman -S lxappearance
+```
+
+
+
+# kde的一些插件的安装
+
+里面的配置文件就是用的下面的其中的配置文件
+
+##  latte-dock安装
+
+安装
+
+```
+sudo pacman -S  latte-dock
+```
+
+## Plasma样式美化
+
+我用的是`WhiteSur-alt `
+
+你们可以去下载
+
+![image-20210316205800488](https://cdn.jsdelivr.net/gh/wzass/zp/image-20210316205800488.png)
+
+## 插件
+
+1. `panon`有声音就会动的一个插件
+
+   他依赖
+
+   ```
+   sudo pacman -S qt5-websockets python-docopt python-numpy python-pyaudio python-cffi python-websockets libpackagekit-glib
+   ```
+
+   ![image-20210317082623220](https://cdn.jsdelivr.net/gh/wzass/zp/image-20210317082623220.png)
+
+2. `Netspeed`流量监控
+
+   ![image-20210317083316061](/home/zss/.config/Typora/typora-user-images/image-20210317083316061.png)
+
+3. `Reversal`小米图标
+
+   ![image-20210317083508762](https://cdn.jsdelivr.net/gh/wzass/zp/image-20210317083508762.png)
+
+4. `System load `系统监控
+
+   ![image-20210317083923950](https://cdn.jsdelivr.net/gh/wzass/zp/image-20210317083923950.png)
+
+5. `Monitor`桌面系统监控
+
+   
+
+   ![image-20210317084536275](https://cdn.jsdelivr.net/gh/wzass/zp/image-20210317084536275.png)
+
+   6. `Layan`光标
+
+      ![image-20210317092435050](https://cdn.jsdelivr.net/gh/wzass/zp/image-20210317092435050.png)
+
+   7. `cherry`窗口装饰
+
+      ![image-20210317092747242](https://cdn.jsdelivr.net/gh/wzass/zp/image-20210317092747242.png)
+
+   8. `Evergarden`欢迎界面
+
+      ![image-20210317092942561](https://cdn.jsdelivr.net/gh/wzass/zp/image-20210317092942561.png)
