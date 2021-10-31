@@ -1,8 +1,43 @@
+
+
+# 效果图
+
+## i3wm
+
+下面用了nyancat，cmatrix，sl，ranger
+
+![image-20211031231109293](https://cdn.jsdelivr.net/gh/Zhao-sai-sai/Picture/image-20211031231109293.png)
+
+## kde
+
+![](https://cdn.jsdelivr.net/gh/Zhao-sai-sai/Picture/320.gif)
+
 # 说明
 
 叫这个配置文件复制到对应的文件就可以使用了，kde和i3wm按照下面的安装就可以了
 
 kde可能会依赖其他的东西可以直接自行安装
+
+# fzf安装
+
+安装fzf
+
+```sh
+sudo apt-get install fzf 
+```
+
+# ranger安装
+
+```sh
+git clone https://github.com/ranger/ranger.git
+cd ranger
+sudo make install
+sudo python3 setup.py install --optimize=1 --record=install_log.txt
+```
+
+## 效果
+![qqqqq](https://cdn.jsdelivr.net/gh/wzass/zp/qqqqq.png)
+
 
 # i3wm的配置
 
@@ -136,3 +171,4 @@ sudo pacman -S  latte-dock
    8. `Evergarden`欢迎界面
 
       ![image-20210317092942561](https://cdn.jsdelivr.net/gh/wzass/zp/image-20210317092942561.png)
+
