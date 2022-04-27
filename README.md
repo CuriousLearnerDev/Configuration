@@ -1,24 +1,24 @@
 
 
-### 效果图
+## 效果图
 
-#### i3wm
+## i3wm
 
 下面用了nyancat，cmatrix，sl，ranger
 
 ![image-20211031231109293](https://cdn.jsdelivr.net/gh/Zhao-sai-sai/Picture/image-20211031231109293.png)
 
-#### kde
+## kde
 
 ![](https://cdn.jsdelivr.net/gh/Zhao-sai-sai/Picture/320.gif)
 
-#### 说明
+## 说明
 
 叫这个配置文件复制到对应的文件就可以使用了，kde和i3wm按照下面的安装就可以了
 
 kde可能会依赖其他的东西可以直接自行安装
 
-### fzf安装
+## fzf安装
 
 安装fzf
 
@@ -26,7 +26,7 @@ kde可能会依赖其他的东西可以直接自行安装
 sudo apt-get install fzf 
 ```
 
-### ranger安装
+## ranger安装
 
 ```sh
 git clone https://github.com/ranger/ranger.git
@@ -35,17 +35,17 @@ sudo make install
 sudo python3 setup.py install --optimize=1 --record=install_log.txt
 ```
 
-#### 效果
+## 效果
 ![qqqqq](https://cdn.jsdelivr.net/gh/wzass/zp/qqqqq.png)
 
 
-### i3wm的配置
+## i3wm的配置
 
 里面的程序会调用的工具
 
 
 
-#### 通知守护程序
+## 通知守护程序
 
 安装dunst
 
@@ -55,7 +55,7 @@ sudo pacman -S dunst
 
 
 
-#### 安装polybar
+## 安装polybar
 
 ```sh
 git clone https://aur.archlinux.org/polybar.git
@@ -63,7 +63,7 @@ cd polybar
 makepkg -si 
 ```
 
-#### 屏幕锁
+## 屏幕锁
 
 用的是i3lockr
 
@@ -78,7 +78,7 @@ sudo mv i3lockr /usr/local/bin
 
 
 
-#### 网络连接
+## 网络连接
 
 用的nm-applet
 
@@ -88,7 +88,7 @@ sudo mv i3lockr /usr/local/bin
 sudo pacman -S  network-manager-gnome
 ```
 
-#### 终端安装
+## 终端安装
 
 我用的是konsole
 
@@ -98,7 +98,7 @@ sudo pacman -S  konsole
 
 
 
-#### 主题
+## 主题
 
 用的是`lxappearance`
 
@@ -110,11 +110,11 @@ sudo pacman -S lxappearance
 
 
 
-### kde的一些插件的安装
+## kde的一些插件的安装
 
 里面的配置文件就是用的下面的其中的配置文件
 
-####  latte-dock安装
+##  latte-dock安装
 
 安装
 
@@ -122,7 +122,7 @@ sudo pacman -S lxappearance
 sudo pacman -S  latte-dock
 ```
 
-#### Plasma样式美化
+## Plasma样式美化
 
 我用的是`WhiteSur-alt `
 
@@ -130,7 +130,7 @@ sudo pacman -S  latte-dock
 
 ![image-20210316205800488](https://cdn.jsdelivr.net/gh/wzass/zp/image-20210316205800488.png)
 
-#### 插件
+## 插件
 
 1. `panon`有声音就会动的一个插件
 
