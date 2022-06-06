@@ -1,3 +1,11 @@
+## b站视频教程：
+(1)linux 我的常用好软件推荐：https://www.bilibili.com/video/BV1vL4y1n79N
+(2)linux 我的常用好软件推荐：https://www.bilibili.com/video/BV1S44y177jq
+linux kde 美化和常用的软件：https://www.bilibili.com/video/BV14R4y1x79V
+终端文件管理器(ranger)配置使用：https://www.bilibili.com/video/BV1ER4y1F72A
+(1)linux i3wm使用安装和使用：https://www.bilibili.com/video/BV1CZ4y1C7TA
+(2)linux i3wm使用rofi搜索工具配置美化：https://www.bilibili.com/video/BV1vu411k7JZ
+
 
 
 ## 效果图
