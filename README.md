@@ -254,12 +254,8 @@ sudo eopkg install qt5-websockets  \
 
 ![image-20210317082623220](https://cdn.jsdelivr.net/gh/wzass/zp/image-20210317082623220.png)
 
->  `Netspeed`流量监控
-
-![image-20210317083316061](/home/zss/.config/Typora/typora-user-images/image-20210317083316061.png)
-
 >  `Reversal`小米图标
-
+![image-20210317083508762](https://zssnp-1301606049.cos.ap-nanjing.myqcloud.com/img/image-20210317083508762.png)
 >  `System load `系统监控
 
 ![image-20210317083923950](https://cdn.jsdelivr.net/gh/wzass/zp/image-20210317083923950.png)
