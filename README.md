@@ -146,7 +146,7 @@ sudo pacman -S  latte-dock
 
 ## 插件
 
-1. `panon`有声音就会动的一个插件
+> `panon`有声音就会动的一个插件
 
    他依赖
 
@@ -156,33 +156,33 @@ sudo pacman -S  latte-dock
 
    ![image-20210317082623220](https://cdn.jsdelivr.net/gh/wzass/zp/image-20210317082623220.png)
 
-2. `Netspeed`流量监控
+>  `Netspeed`流量监控
 
    ![image-20210317083316061](/home/zss/.config/Typora/typora-user-images/image-20210317083316061.png)
 
-3. `Reversal`小米图标
+>  `Reversal`小米图标
 
    ![image-20210317083508762](https://cdn.jsdelivr.net/gh/wzass/zp/image-20210317083508762.png)
 
-4. `System load `系统监控
+>  `System load `系统监控
 
    ![image-20210317083923950](https://cdn.jsdelivr.net/gh/wzass/zp/image-20210317083923950.png)
 
-5. `Monitor`桌面系统监控
+>  `Monitor`桌面系统监控
 
    
 
    ![image-20210317084536275](https://cdn.jsdelivr.net/gh/wzass/zp/image-20210317084536275.png)
 
-   6. `Layan`光标
+>  `Layan`光标
 
-      ![image-20210317092435050](https://cdn.jsdelivr.net/gh/wzass/zp/image-20210317092435050.png)
+   ![image-20210317092435050](https://cdn.jsdelivr.net/gh/wzass/zp/image-20210317092435050.png)
 
-   7. `cherry`窗口装饰
+>  `cherry`窗口装饰
 
-      ![image-20210317092747242](https://cdn.jsdelivr.net/gh/wzass/zp/image-20210317092747242.png)
+    ![image-20210317092747242](https://cdn.jsdelivr.net/gh/wzass/zp/image-20210317092747242.png)
 
-   8. `Evergarden`欢迎界面
+>  `Evergarden`欢迎界面
 
-      ![image-20210317092942561](https://cdn.jsdelivr.net/gh/wzass/zp/image-20210317092942561.png)
+   ![image-20210317092942561](https://cdn.jsdelivr.net/gh/wzass/zp/image-20210317092942561.png)
 
