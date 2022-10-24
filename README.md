@@ -202,7 +202,7 @@ sudo yum  install  latte-dock
 
 ![image-20210316205800488](https://cdn.jsdelivr.net/gh/wzass/zp/image-20210316205800488.png)
 
-## 插件
+## KDE插件
 
 > `panon`有声音就会动的一个插件
 
