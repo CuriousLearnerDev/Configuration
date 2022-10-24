@@ -202,6 +202,24 @@ sudo yum  install  latte-dock
 
 ![image-20210316205800488](https://cdn.jsdelivr.net/gh/wzass/zp/image-20210316205800488.png)
 
+
+
+## 字体安装
+
+安装
+1、Arch Linux
+
+```
+pacman -S  ttf-dejavu wqy-bitmapfont wqy-microhei wqy-zenhei noto-fonts noto-fonts-emoji 
+```
+
+2、Ubuntu/Kali/Debiand
+
+```sh
+sudo apt-get install xfonts-intl-chinese   ttf-wqy-microhei
+```
+
+
 ## KDE插件
 
 > `panon`有声音就会动的一个插件
