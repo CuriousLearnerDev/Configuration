@@ -111,12 +111,12 @@ sudo mv i3lockr /usr/local/bin
 ```sh
 sudo pacman -S  network-manager-gnome
 ```
-2、Ubuntu/kali/Debiand
+2、Ubuntu/kali/Debiand安装
 
 ```sh
 sudo apt-get install network-manager-gnome
 ```
-3、CentOS
+3、CentOS安装
 
 ```sh
 sudo yum  install network-manager-gnome
@@ -149,7 +149,6 @@ sudo pacman -S lxappearance
 sudo apt-get install  lxappearance
 ```
 
-
 3、CentOS
 
 ```sh
@@ -163,14 +162,23 @@ sudo yum  install  lxappearance
 ##  latte-dock安装
 
 安装
+1、arch安装
 
 ```
-sudo pacman -S  latte-dock   # 1、arch安装
+sudo pacman -S  latte-dock 
 
-sudo apt-get install   latte-dock # 2、Ubuntu/kali/Debiand
-
-sudo yum  install  latte-dock     # 3、CentOS
 ```
+2、Ubuntu/kali/Debiand安装
+
+```sh
+sudo apt-get install  latte-dock 
+```
+3、CentOS安装
+
+```sh
+sudo yum  install  latte-dock 
+```
+
 
 
 ## Plasma样式美化
@@ -186,17 +194,34 @@ sudo yum  install  latte-dock     # 3、CentOS
 > `panon`有声音就会动的一个插件
 
 他依赖
+1、Arch Linux
 
 ```
 sudo pacman -S qt5-websockets python-docopt python-numpy python-pyaudio python-cffi python-websockets libpackagekit-glib
+```
+2、openSUSE
 
-sudo apt-get install   latte-dock # 2、Ubuntu/kali/Debiand
+```
+sudo zypper in libQt5WebSockets5 \
+    python3-docopt python3-numpy python3-PyAudio python3-cffi python3-websockets
+```
 
-sudo yum  install  latte-dock     # 3、CentOS
+3、Ubuntu
 
-   ```
+```
+sudo apt-get install qml-module-qt-websockets \
+    python3-docopt python3-numpy python3-pyaudio python3-cffi python3-websockets
+```
 
-   ![image-20210317082623220](https://cdn.jsdelivr.net/gh/wzass/zp/image-20210317082623220.png)
+4、Solus
+
+```
+sudo eopkg install qt5-websockets  \
+   python-docopt PyAudio numpy python-cffi python-websockets
+```
+
+
+![image-20210317082623220](https://cdn.jsdelivr.net/gh/wzass/zp/image-20210317082623220.png)
 
 >  `Netspeed`流量监控
 
