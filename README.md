@@ -24,7 +24,7 @@ linux kde 美化和常用的软件：https://www.bilibili.com/video/BV14R4y1x79V
 
 ## kde
 
-![](https://cdn.jsdelivr.net/gh/Zhao-sai-sai/Picture/320.gif)
+
 
 ## 说明
 
