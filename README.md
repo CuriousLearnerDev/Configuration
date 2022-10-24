@@ -13,8 +13,12 @@ linux kde 美化和常用的软件：https://www.bilibili.com/video/BV14R4y1x79V
 
 
 
+## 导入配置文件
+
+### 叫kde或者i3wm的配置文件导入到对应的配置文件里面
 
 ## 效果图
+
 
 ## i3wm
 
@@ -24,7 +28,7 @@ linux kde 美化和常用的软件：https://www.bilibili.com/video/BV14R4y1x79V
 
 ## kde
 
-
+![image-20221024105212271](https://zssnp-1301606049.cos.ap-nanjing.myqcloud.com/img/image-20221024105212271.png)
 
 ## 说明
 
