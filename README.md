@@ -63,11 +63,19 @@ sudo python3 setup.py install --optimize=1 --record=install_log.txt
 
 安装dunst
 
+1、arch安装
 ```sh
 sudo pacman -S dunst
 ```
+2、Ubuntu/kali/Debiand
 
-
+```sh
+sudo apt-get install dunst
+```
+3、CentOS
+```sh
+sudo yum install dunst
+```
 
 ## 安装polybar
 
@@ -98,8 +106,20 @@ sudo mv i3lockr /usr/local/bin
 
 安装
 
+1、arch安装
+
 ```sh
 sudo pacman -S  network-manager-gnome
+```
+2、Ubuntu/kali/Debiand
+
+```sh
+sudo apt-get install network-manager-gnome
+```
+3、CentOS
+
+```sh
+sudo yum  install network-manager-gnome
 ```
 
 ## 终端安装
@@ -118,11 +138,23 @@ sudo pacman -S  konsole
 
 安装
 
+1、arch安装
+
 ```sh
 sudo pacman -S lxappearance
 ```
+2、Ubuntu/kali/Debiand
+
+```sh
+sudo apt-get install  lxappearance
+```
 
 
+3、CentOS
+
+```sh
+sudo yum  install  lxappearance
+```
 
 ## kde的一些插件的安装
 
@@ -133,8 +165,13 @@ sudo pacman -S lxappearance
 安装
 
 ```
-sudo pacman -S  latte-dock
+sudo pacman -S  latte-dock   # 1、arch安装
+
+sudo apt-get install   latte-dock # 2、Ubuntu/kali/Debiand
+
+sudo yum  install  latte-dock     # 3、CentOS
 ```
+
 
 ## Plasma样式美化
 
@@ -148,10 +185,15 @@ sudo pacman -S  latte-dock
 
 > `panon`有声音就会动的一个插件
 
-   他依赖
+他依赖
 
-   ```
-   sudo pacman -S qt5-websockets python-docopt python-numpy python-pyaudio python-cffi python-websockets libpackagekit-glib
+```
+sudo pacman -S qt5-websockets python-docopt python-numpy python-pyaudio python-cffi python-websockets libpackagekit-glib
+
+sudo apt-get install   latte-dock # 2、Ubuntu/kali/Debiand
+
+sudo yum  install  latte-dock     # 3、CentOS
+
    ```
 
    ![image-20210317082623220](https://cdn.jsdelivr.net/gh/wzass/zp/image-20210317082623220.png)
