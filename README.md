@@ -106,17 +106,17 @@ sudo mv i3lockr /usr/local/bin
 
 安装
 
-1、arch安装
+1、Arch Linux
 
 ```sh
 sudo pacman -S  network-manager-gnome
 ```
-2、Ubuntu/kali/Debiand安装
+2、Ubuntu/Kali/Debiand
 
 ```sh
 sudo apt-get install network-manager-gnome
 ```
-3、CentOS安装
+3、CentOS
 
 ```sh
 sudo yum  install network-manager-gnome
@@ -126,11 +126,24 @@ sudo yum  install network-manager-gnome
 
 我用的是konsole
 
+安装
+
+1、Arch Linux
+
 ```sh
 sudo pacman -S  konsole
 ```
 
+2、Ubuntu/Kali/Debiand
 
+```sh
+sudo apt-get install konsole
+```
+3、CentOS
+
+```sh
+sudo yum  install konsole
+```
 
 ## 主题
 
@@ -138,7 +151,7 @@ sudo pacman -S  konsole
 
 安装
 
-1、arch安装
+1、Arch Linux
 
 ```sh
 sudo pacman -S lxappearance
@@ -162,13 +175,13 @@ sudo yum  install  lxappearance
 ##  latte-dock安装
 
 安装
-1、arch安装
+1、Arch Linux
 
 ```
 sudo pacman -S  latte-dock 
 
 ```
-2、Ubuntu/kali/Debiand安装
+2、Ubuntu/Kali/Debiand
 
 ```sh
 sudo apt-get install  latte-dock 
@@ -225,31 +238,27 @@ sudo eopkg install qt5-websockets  \
 
 >  `Netspeed`流量监控
 
-   ![image-20210317083316061](/home/zss/.config/Typora/typora-user-images/image-20210317083316061.png)
+![image-20210317083316061](/home/zss/.config/Typora/typora-user-images/image-20210317083316061.png)
 
 >  `Reversal`小米图标
 
-   ![image-20210317083508762](https://cdn.jsdelivr.net/gh/wzass/zp/image-20210317083508762.png)
-
 >  `System load `系统监控
 
-   ![image-20210317083923950](https://cdn.jsdelivr.net/gh/wzass/zp/image-20210317083923950.png)
+![image-20210317083923950](https://cdn.jsdelivr.net/gh/wzass/zp/image-20210317083923950.png)
 
 >  `Monitor`桌面系统监控
 
-   
-
-   ![image-20210317084536275](https://cdn.jsdelivr.net/gh/wzass/zp/image-20210317084536275.png)
+![image-20210317084536275](https://cdn.jsdelivr.net/gh/wzass/zp/image-20210317084536275.png)
 
 >  `Layan`光标
 
-   ![image-20210317092435050](https://cdn.jsdelivr.net/gh/wzass/zp/image-20210317092435050.png)
+![image-20210317092435050](https://cdn.jsdelivr.net/gh/wzass/zp/image-20210317092435050.png)
 
 >  `cherry`窗口装饰
 
-    ![image-20210317092747242](https://cdn.jsdelivr.net/gh/wzass/zp/image-20210317092747242.png)
+![image-20210317092747242](https://cdn.jsdelivr.net/gh/wzass/zp/image-20210317092747242.png)
 
 >  `Evergarden`欢迎界面
 
-   ![image-20210317092942561](https://cdn.jsdelivr.net/gh/wzass/zp/image-20210317092942561.png)
+![image-20210317092942561](https://cdn.jsdelivr.net/gh/wzass/zp/image-20210317092942561.png)
 
